@@ -1,3 +1,31 @@
 p{
+    color:rgb(44, 44, 44);
+}
+
+h2{
     color:green;
+    text-decoration: underline green;
+    
+}
+
+h3{
+    font-weight: bold;
+}
+
+a{
+    color:rgb(11, 173, 248);
+    text-decoration: none;
+}
+
+h1{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#titrerouge{
+    color:red;
+}
+
+body{
+    font-family: "Times New Roman", Times, serif;
 }
