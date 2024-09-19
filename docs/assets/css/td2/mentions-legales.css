@@ -3,7 +3,7 @@ p{
 }
 
 h2{
-    color:green;
+    color:#38761D;
     text-decoration: underline green;
     
 }
@@ -27,5 +27,7 @@ h1{
 }
 
 body{
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Noto Sans", system-ui, sans-serif;
+    margin:auto;
+    max-width:800px;
 }
