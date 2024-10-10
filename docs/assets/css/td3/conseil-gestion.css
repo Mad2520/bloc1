@@ -1,13 +1,13 @@
 #bloc1{
-    border : solid 1px salmon;
-    background-color: salmon;
+    border : solid 1px rgb(238, 70, 51);
+    background-color: rgb(238, 70, 51);
     border-radius: 15px;
     text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
     position:absolute;
     z-index: 3;
-    margin-top: 50px;
+    left:25%;
+    right:25%;
+    margin-top:80px;
 }
 
 h3{
@@ -40,25 +40,50 @@ img{
     position: relative;
     bottom:100px;
     z-index: 3;
-    margin-left:100px;
-    margin-right:100px;
+    margin-left:20%;
+    margin-right:20%;
     
     
 }
 
-#bloc3{
+.bloc3{
     border : solid 1px white;
     border-radius: 10px;
     background-color: white;
-    border-spacing: 15px;
-    margin : 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding : 20px;
+    margin : 10%;
+    padding : 15%;
 
 
 }
 
+#strategie,#gestion,#approvisionnement,#consultation{
+    width:40%;
+    background-color:rgb(238, 70, 51);
+    border-radius: 100%;
+    position : relative;
+    top:5%;
+}
+
 #bloc{
-    background-color: grey;
+    background-color: rgb(228, 228, 228);
+}
+
+footer{
+    text-align: center;
+    color:white;
+    background-color: rgb(53, 52, 52);
+    padding:2%;
+}
+
+#double,#double2{
+    text-decoration: underline 2px grey;
+}
+
+p{
+    color:grey;
+    font-size: small;
+}
+
+#footer{
+    color:white;
 }
