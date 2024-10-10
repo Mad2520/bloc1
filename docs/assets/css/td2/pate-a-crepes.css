@@ -1,0 +1,64 @@
+
+body{
+    margin:auto;
+    margin:50px;
+    font-family: "Arial",serif;
+}
+
+h2{
+    font-weight: normal;
+}
+
+#bold{
+    font-weight: bold;
+}
+
+#lirecouleur{
+    font-weight: bold;
+    color:rgb(214, 99, 45);
+}
+
+#lire{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(245, 244, 244);
+    
+}
+
+#introduction{
+    padding: 2px;
+    background-color: rgb(245, 244, 244);
+    margin-bottom: 50px;
+    
+}
+
+#recette{
+    background-color: rgb(245, 244, 244);
+    padding: 5px;
+    margin-bottom: 35px;
+}
+
+#ingredients{
+    background-color: rgb(245, 244, 244);
+    padding: 1px;
+    margin-left:50px;
+}
+
+#titrerecette{
+    background-color: rgb(245, 244, 244);
+    padding : 1px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#details{
+    background-color: rgb(245, 244, 244);
+    padding:1px;
+    margin-left: 50px;
+}
+
+li{
+    margin-bottom: 10px;
+}
