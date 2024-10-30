@@ -11,21 +11,32 @@
 
 body{
     margin:auto;
+    font-family: 'Montserrat';
 }
 
 #bloc2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items :center;
+    padding-left : 1%;
+    justify-content: center;
 }
 
 .bloc3 p{
     color:white;
     text-transform: uppercase;
     text-align: center;
+    font-size: small;
+    
 }
 
+
+
 .bloc3 img {
-    width : 20%;
+    width : 15%;
+    display: block;
+    margin:auto;
+    align-items: end;
 }
 
 h1{
@@ -43,9 +54,8 @@ hr{
 
 p{
     text-align: center;
-    font-size: small;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 h4{
@@ -56,4 +66,75 @@ h4{
     margin-left: 42%;
     margin-right: 42%;
     padding:1%;
+}
+
+h4:hover{
+    background-color: #5578B3;
+    color:white;
+    cursor: pointer;
+}
+
+#partenaires{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+footer p{
+    font-size: small;
+    color: white;
+}
+
+footer{
+    background: linear-gradient(0.25turn,#283E89, #50A1CC);
+    padding : 1%;
+}
+
+.bloc3 p:hover{
+    cursor:pointer;
+    border-top: solid 2px white;
+    align-items: center;
+}
+
+#navigation{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    margin : 5%;
+}
+
+#navigation img {
+    width: 20%;
+}
+
+.catégories h4{
+    border:none;
+    background-color: white;
+    margin : auto;
+    text-transform: none;
+}
+
+.blog h4{
+    border:none;
+    background-color: white;
+    margin : auto;
+    text-transform: none;
+    
+}
+
+.tags h4{
+    border:none;
+    background-color: white;
+    margin : auto;
+    text-transform: none;
+}
+
+.catégories li{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: small;
+}
+
+.catégories ul {
+    list-style-type: "✔ ";
 }
