@@ -1,0 +1,59 @@
+#bloc{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: url("../images/header-bg.jpg");
+    padding:2%;
+    background-position: center;
+    align-items: center;
+
+
+}
+
+body{
+    margin:auto;
+}
+
+#bloc2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bloc3 p{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bloc3 img {
+    width : 20%;
+}
+
+h1{
+    text-align: center;
+    margin-top:10%;
+}
+
+hr{
+    margin-right: 47.5%;
+    margin-left: 47.5%;
+    text-align: center;
+    border-color:rgb(97, 169, 198);
+    border-width:1px;
+}
+
+p{
+    text-align: center;
+    font-size: small;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h4{
+    text-align: center;
+    text-transform: uppercase;
+    border : solid 1px rgb(225, 232, 244);
+    background-color: rgb(229, 238, 255);
+    margin-left: 42%;
+    margin-right: 42%;
+    padding:1%;
+}
