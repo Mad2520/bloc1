@@ -95,3 +95,46 @@ footer{
     border-top: solid 2px white;
     align-items: center;
 }
+
+#navigation{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    margin : 5%;
+}
+
+#navigation img {
+    width: 20%;
+}
+
+.catégories h4{
+    border:none;
+    background-color: white;
+    margin : auto;
+    text-transform: none;
+}
+
+.blog h4{
+    border:none;
+    background-color: white;
+    margin : auto;
+    text-transform: none;
+    
+}
+
+.tags h4{
+    border:none;
+    background-color: white;
+    margin : auto;
+    text-transform: none;
+}
+
+.catégories li{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: small;
+}
+
+.catégories ul {
+    list-style-type: "✔ ";
+}
