@@ -11,6 +11,7 @@
 
 body{
     margin:auto;
+    font-family: 'Montserrat';
 }
 
 #bloc2{
@@ -18,6 +19,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items :center;
     padding-left : 1%;
+    justify-content: center;
 }
 
 .bloc3 p{
@@ -25,6 +27,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     font-size: small;
+    
 }
 
 
@@ -65,6 +68,12 @@ h4{
     padding:1%;
 }
 
+h4:hover{
+    background-color: #5578B3;
+    color:white;
+    cursor: pointer;
+}
+
 #partenaires{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -79,4 +88,10 @@ footer p{
 footer{
     background: linear-gradient(0.25turn,#283E89, #50A1CC);
     padding : 1%;
+}
+
+.bloc3 p:hover{
+    cursor:pointer;
+    border-top: solid 2px white;
+    align-items: center;
 }
